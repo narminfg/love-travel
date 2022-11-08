@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    padding: 2rem 4rem;
+
+}
+.logo{
+    width: 30%;
+
+}
+.logo img{
+    width: 40%;
+}
+.header-all  nav a{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #fff;
+}
+.booking a{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.header-content{
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+    text-align: center;
+    background-image:url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg); 
+}
+.header-content .text h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+.header-content .text p{
+    font-size: 20px;
+    color: #fff;
+}
+.header-content input{
+    margin-top: 50px;
+    padding: 10px 9rem;
+    border-radius: 30px;
+    border: none;
+    position: relative;;
+}
+.photos{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+   
+}
+.photos .box{
+    width: 7%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.285);
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    padding: 20px ;
+    align-items: center;
+    margin-left: 10px;
+   
+}
+.box span{
+    color: #fff;
+}
+.photos .box img{
+    width: 50%;
+}
+form i{
+    position:absolute;
+    top: 46%;
+    left: 60%;
+}
+.destinations{
+    text-align: center;
+    margin-top: 50px;
+    padding: 4rem;
+}
+.destinations .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.destinations .box{
+   
+    width: 30%;
+}
+.destinations .box img{
+    width: 80%;
+    margin-bottom: 30px;
+   
+}
+.destinations .box p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.destinations .top p{
+    margin-bottom: 20px;
+}
+.destinations .top h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
